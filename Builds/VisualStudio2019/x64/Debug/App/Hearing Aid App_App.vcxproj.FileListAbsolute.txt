@@ -1,0 +1,1 @@
+\\wsl.localhost\Ubuntu\home\jk4818\projects\SteerableBeamformerApp\Builds\VisualStudio2019\x64\Debug\App\Hearing Aid App.exe
