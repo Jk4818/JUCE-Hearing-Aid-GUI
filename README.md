@@ -20,7 +20,7 @@ Projucer requires corresponding IDEs for modifying and building the application 
 Visual Studio 2022 is the most up to date IDE for windows development.  Make sure to retarget the project to the most up to date visual C++ platform toolset.
 
 ### Android
-Android Studio is best for developing android applications. To run C++ and JUCE on an Android project ensure the latest NDK and SDK are installed.
+Android Studio is best for developing android applications. To run C++ and JUCE on an Android project ensure the latest NDK and SDK are installed. 
 
 ### macOS & IOS
 These systems have not been tested on, but building on them should be similar to other OS. The compass feature and sensor readings must be refactored for IOS devices.
@@ -29,7 +29,8 @@ These systems have not been tested on, but building on them should be similar to
 
 # Usage Guide
 
-To run the application on Windows 11 access the executable in: `SteerableBeamformerApp\Builds\VisualStudio2019\x64\Release\App`
+To run the application on Windows 11 access the executable in the root directory.
+Other platform versions must be build with the required IDE.
 
 Run the **"Hearing Aid App.exe"**.
 
