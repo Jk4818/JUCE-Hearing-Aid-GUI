@@ -71,20 +71,21 @@ namespace Gui {
             g.resetToDefaultState();
             for (int i = 0; i < noSources; i++) {
                 g.setColour(juce::Colour(0xFFFE5F55));
-                g.fillEllipse(rxSrc + sources[i].x*100, rySrc + sources[i].y*100, rwSrc, rwSrc);
+                //90 was reasonable scaling for 2m distances from centre
+                g.fillEllipse(rxSrc + sources[i].x*90, rySrc - sources[i].y*90, rwSrc, rwSrc);
                 //g.drawText(sources[i].sourceName, 0, textSize, rxSrc + sources[i].x * 100, height, juce::Justification::centred);
             }
 
         }
 
         struct source {
-            int x = 0;
-            int y = 0;
+            float x = 0;
+            float y = 0;
             juce::String sourceName = "";
         };
         //Define two known sources
-        int noSources = 2;
-        source sources[2];
+        int noSources = 3;
+        source sources[3];
     private:
         //==============================================================================
         JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MapBaseComponent)

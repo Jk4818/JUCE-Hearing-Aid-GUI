@@ -3,6 +3,8 @@
 Cross-platform GUI application for controlling an adaptive steerable beamformer hearing aid (HA) through OSC.
 Check out the HA system here: https://github.com/Jk4818/openMHA-HA-System
 
+For a quick demo of the entire system in action click **[here](https://youtu.be/tEZiaqk7CAc)**.
+
 Simple steps to run and modify this cross-platform application on mobile and desktop.
 
 
